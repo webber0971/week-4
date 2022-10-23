@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>會員系統</title>
+</head>
+<body>
+    <div style="margin-right: 5%;margin-left: 5%;background-color:rgb(25, 54, 95);width:auto;height:100px;text-align:center;line-height:100px;font-size: larger;color: aliceblue;font-weight: bold;">
+        歡迎光臨，請輸入帳號密碼
+    </div>
+    <div style="margin-right: 5%;margin-left: 5%;width:auto;height:200px;border-width:1px;border-style:solid;border-color:rgb(160, 179, 179);display: flex;justify-content:center;align-items:center;">
+        <div>
+            <div style="text-align:center ; font-weight: bold;">
+                登入系統
+            </div>
+            <form action="/signin" method="POST">
+                信箱<input type="text" name="email" style="margin:5px;"/><br/>
+                密碼<input type="password" name="password" style="margin:5px"><br/>
+                <div style="text-align:center"><button>登入</button></div>
+            </form>
+            <div style="text-align:center"><a href="/register">進入註冊系統</a></div>
+        </div>
+    </div>
+    <div style="margin-right: 5%;margin-left: 5%;width:auto;height:200px;border-width:1px;border-style:solid;border-top-style:hidden;border-color:rgb(160, 179, 179);display: flex;justify-content:center;align-items:center;">
+        <div>
+            <div style="text-align:center ; font-weight: bold;">
+                計算正整數的平方
+            </div>
+            <form action="/count">
+                正整數<input type="text" name="number" style="margin:5px;"/><br/>
+                <div style="text-align:center"><button>計算</button></div>
+            </form>
+        </div>
+    </div>
+    
+
+
+</body>
+</html>
